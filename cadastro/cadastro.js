@@ -62,7 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
       email: email.value 
     }));
 
-    setTimeout(() => window.location.href = "/Home/home.html", 1200);
+    setTimeout(() => window.location.href = "../dashboard/dashboard.html", 1200);
   });
 
   function showError(text) {
